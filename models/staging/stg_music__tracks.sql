@@ -1,6 +1,7 @@
 select 
     trackid as track_id,
     name as track_name,
+    albumid as album_id,
     mediatypeid as mediatype_id,
     genreid as genre_id,
     composer as track_composer,
