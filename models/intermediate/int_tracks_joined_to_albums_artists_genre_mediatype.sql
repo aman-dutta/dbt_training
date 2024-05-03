@@ -31,14 +31,14 @@ tracks_joined_to_albums_artists_genre_mediatype as (
         music_tracks.genre_id,
         music_tracks.track_name,
         music_tracks.track_composer,
-        music_albums.album_name,
+        music_albums.album_title,
         music_artists.artist_name,
         music_media_types.mediatype_name,
         music_genres.genre_name,
         music_tracks.track_length_ms,
         music_tracks.track_length_seconds,
         music_tracks.track_length_mins,
-        music_tracks.Bytes,
+        music_tracks.bytes,
         music_tracks.unit_price
     from music_tracks
     left join music_genres

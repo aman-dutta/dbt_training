@@ -24,6 +24,7 @@ cutomer_and_employee as (
         employees.employee_id,
         employees.employee_first_name,
         employees.employee_last_name,
+        concat(employees.employee_first_name, employees.employee_first_name) as employee_name,
         employees.employee_title,
         employees.employee_birth_date,
         employees.employee_hired_date,
